@@ -231,21 +231,35 @@ Generate an accurate response grounded in the documents.
 
 ## Home Page
 
-(Add Screenshot Here)
+<img width="955" height="465" alt="Screenshot 2026-07-01 155408" src="https://github.com/user-attachments/assets/120615b0-a204-40e6-9cb1-3cfc7b571045" />
+
+
 
 ---
 
 ## Chat Interface
 
-(Add Screenshot Here)
+<img width="955" height="472" alt="Screenshot 2026-07-01 155513" src="https://github.com/user-attachments/assets/b17846c6-79f5-468e-bd4e-bf298178f281" />
+
 
 ---
 
 ## Generated Response
 
-(Add Screenshot Here)
+(<img width="955" height="472" alt="Screenshot 2026-07-01 155513" src="https://github.com/user-attachments/assets/9bd68b31-f0ac-418d-9ae2-21f905117da9" />
+)
 
 ---
+
+## code
+
+<img width="959" height="566" alt="Screenshot 2026-07-01 162652" src="https://github.com/user-attachments/assets/a0533d45-e94b-49eb-bc2e-719e1620a0e4" />
+
+)
+
+---
+
+
 
 # 🚀 Future Enhancements
 
