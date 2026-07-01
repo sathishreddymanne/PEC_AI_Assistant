@@ -12,11 +12,15 @@
 
 ## 📌 Overview
 
-PEC AI Assistant is an intelligent chatbot designed to answer student queries about **Prathyusha Engineering College** using **Retrieval-Augmented Generation (RAG)**.
+## 📖 Overview
 
-Instead of relying solely on a Large Language Model, the assistant retrieves relevant information from college documents and uses that context to generate accurate, reliable, and context-aware responses.
+PEC AI Assistant is an AI-powered chatbot developed to help students quickly access information about **Prathyusha Engineering College** through natural language conversations. The assistant leverages **Retrieval-Augmented Generation (RAG)** to retrieve relevant information from official college documents and generate accurate, context-aware responses.
 
-The system combines **Google Gemini**, **LangChain**, **FAISS**, and **HuggingFace Embeddings** to provide fast semantic search and intelligent question answering.
+Unlike traditional chatbots that rely solely on a Large Language Model, this system first performs semantic search on a vector database to identify the most relevant document sections. The retrieved context is then combined with the user's query and processed by **Google Gemini**, ensuring reliable and document-grounded answers.
+
+The project demonstrates the practical implementation of modern AI technologies, including **LangChain**, **FAISS**, **HuggingFace Embeddings**, and **Streamlit**, to build an intelligent document question-answering system. It is designed with a modular architecture, making it easy to scale by adding new PDFs without changing the application code.
+
+This project showcases real-world applications of Large Language Models (LLMs), semantic search, vector databases, and Retrieval-Augmented Generation for educational and institutional knowledge management.
 
 ---
 
