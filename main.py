@@ -52,14 +52,13 @@ def create_prompt():
 
 You are an AI assistant for Prathyusha Engineering College.
 
-Answer ONLY from the provided context.
+Answer  from the provided context and also give answers for for general questions and any questions from internet 
 
 If the answer is present in multiple chunks, combine the information into one complete answer.
 
 Do not say "not explicitly mentioned" unless you have carefully checked all retrieved context.
 
-If the answer cannot be found in the retrieved context, reply:
-"I could not find this information in the available college documents."
+
 
 Previous Conversation:
 {chat_history}
@@ -150,7 +149,7 @@ if __name__ == "__main__":
 
         for i, doc in enumerate(docs):
             print(f"\n----- Chunk {i+1} -----\n")
-            print(doc.page_content[:500])   # First 500 characters
+            print(doc.page_content[:500])   
             print()
 
         response = rag_chain.invoke({
